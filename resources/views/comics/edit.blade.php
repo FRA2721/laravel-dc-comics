@@ -61,8 +61,9 @@
                             value="{{ $comic->type }}">
                     </div>
 
+                    {{-- edit button --}}
                     <button type="submit" class="btn btn-success">Edit comic</button>
-                    
+
                 </form>
             </div>
         </div>
