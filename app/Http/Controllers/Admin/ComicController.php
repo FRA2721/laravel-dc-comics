@@ -63,9 +63,9 @@ class ComicController extends Controller
      * @return \Illuminate\Http\Response
      * @author FRANCESCO CIMINO
      */
-    public function edit($id)
+    public function edit(Comic $comic)
     {
-        //
+        return view('comics.edit', compact('comic'));
     }
 
     /**

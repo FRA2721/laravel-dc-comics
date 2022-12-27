@@ -19,7 +19,7 @@
                     <p class="card-text">Description: {{ $comic->description }}</p>
                     <p class="card-text">Serie: {{ $comic->series }}</p>
                     <p class="card-text">Type: {{ $comic->type }}</p>
-                    <p class="card-text">Data release: {{ $comic->sale_date }}</p>
+                    <p class="card-text">Sale data: {{ $comic->sale_date }}</p>
                     <p class="card-text">Price :{{ $comic->price }}</p>
                 </div>
                 {{-- /comic data --}}
