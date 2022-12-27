@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\ComicController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/**
+ * route creation
+ * @author FRANCESCO CIMINO
+ */
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
+
+
+
+/**
+ * comics route creation
+ * @author FRANCESCO CIMINO
+ */
+Route::resource('comics', ComicController::class);

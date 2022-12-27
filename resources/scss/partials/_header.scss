@@ -1,0 +1,59 @@
+// header formatting section
+header{
+
+    // header top formatting section
+    .header-top{
+        color: white;
+        background-color: #0084ff;
+        font-size: .8rem;
+        padding: .5em 0;
+        text-align: end;
+    
+        p{
+            margin: 0;
+        }
+    }
+
+    // header bottom formatting section
+    .header-bottom{
+
+        // logo formatting section
+        .logo{
+            width: 20%;
+        }
+
+        // navigation formatting section 
+        nav{
+            width: 80%;
+            
+            // list formatting section
+            ul{
+                list-style: none;
+                margin: 0;
+    
+                // list item formatting section
+                li{
+                    margin: 0 1em;
+    
+                    // anchor formatting section
+                    a{
+                        text-decoration: none;
+                        color: #222222;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        transition-duration: 1s;
+    
+                        &:hover{
+                            color: #0282f9;
+                            border-bottom: 3px solid #0084ff;
+                        }
+
+                        &.active{
+                            border-bottom: 3px solid #0084ff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
