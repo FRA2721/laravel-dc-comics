@@ -12,7 +12,7 @@
 
             {{-- add comics section --}}
             <div class="text-end">
-                <a href="{{ route('comics.create') }}" class="btn btn-primary">Add Comics</a>
+                <a href="{{ route('comics.create') }}" class="btn btn-success">Add Comics</a>
             </div>
             {{-- /add comics section --}}
 
